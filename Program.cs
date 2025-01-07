@@ -9,6 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<SumOfServices>();
+builder.Services.AddScoped<WakeUpTimeService>();
 
 var app = builder.Build();
 
